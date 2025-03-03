@@ -1,0 +1,512 @@
+
+
+
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ margin: 0;
+ padding: 0;
+ font-family: 'Georgia', 'serif';
+ background-image: url("https://images.pexels.com/photos/30889864/pexels-photo-30889864/free-photo-of-fluffy-white-cloud-in-clear-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ background-size: cover; 
+ background-position: center center;
+}
+
+
+.title {
+ font-size: 4rem;
+ font-weight: bold;
+ color: #333;
+ margin-bottom: 30px;
+ text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.button {
+ padding: 15px 40px;
+ font-size: 1.5rem;
+ font-weight: bold;
+ color: white;
+ background: linear-gradient(90deg, #007bff, #014691);
+ border: none;
+ border-radius: 10px;
+ cursor: pointer;
+ transition: all 0.3s ease-in-out;
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.coin-button {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px; 
+  border-radius: 50%;
+  border: none;
+  background-image: url('/src/assets/Kcoin.png');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+
+.coin-button:hover{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 60px; 
+  height: 60px; 
+  border-radius: 50%;
+  border: none;
+  background-image: url('/src/assets/Kcoin.png');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+p{
+ color: #000000;
+}
+
+
+.button:hover {
+ background: linear-gradient(90deg, #0056b3, #00428d);
+ transform: scale(1.05);
+}
+
+.logo {
+ width: 150px;
+ height: auto;
+ margin-bottom: 20px;
+}
+
+
+
+
+.container {
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ max-width: 600px; 
+ height: auto;
+ padding: 40px;
+ background: rgba(255, 255, 255, 0.8); 
+ border-radius: 15px;
+ box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Title */
+.title {
+ font-size: 3.5rem;
+ font-weight: bold;
+ color: #333;
+ margin-bottom: 20px;
+}
+
+
+.logo {
+ width: 180px; 
+ height: auto;
+ margin-bottom: 25px;
+}
+
+
+p {
+ font-size: 1.2rem;
+ color: #333;
+ margin-bottom: 30px;
+}
+
+
+.button {
+ padding: 15px 50px;
+ font-size: 1.4rem;
+ font-weight: bold;
+ color: white;
+ background: linear-gradient(90deg, #007bff, #002144);
+ border: none;
+ border-radius: 12px;
+ cursor: pointer;
+ transition: all 0.3s ease-in-out;
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.button:hover {
+ background: linear-gradient(90deg, #0056b3, #004494);
+ transform: scale(1.05);
+}
+
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+.register body {
+ font-family: 'Georgia', serif;
+ background: linear-gradient(to bottom, white, #75b6f8);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+
+/* Register Container */
+.register {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 100%;
+}
+
+
+.card{
+ display: flex;
+ width: 100%;
+ max-width: 1200px;
+ background: rgba(255, 255, 255, 0.9);
+ border-radius: 15px;
+ box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+ overflow: hidden;
+}
+
+
+.left {
+ flex: 1;
+ background: linear-gradient(135deg, #007bff, #0056b3);
+ color: white;
+ padding: 100px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+
+.left h1 {
+ font-size: 2.5rem;
+ margin-bottom: 20px;
+}
+
+
+.left span {
+ font-size: 1rem;
+ margin-bottom: 20px;
+}
+
+
+.left button {
+ background: linear-gradient(90deg, #00152b, #004494);
+ color: white;
+ padding: 10px 25px;
+ border: none;
+ border-radius: 8px;
+ font-size: 1rem;
+ font-weight: bold;
+ cursor: pointer;
+ transition: all 0.3s ease;
+}
+
+
+
+
+.left button:hover {
+ background-color: #f0f0f0 !important;
+ transform: scale(1.05);
+}
+
+
+.left .login button {
+ background-color: black !important;
+ color: white !important;
+ padding: 10px 20px;
+ font-size: 1rem;
+ font-weight: bold;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: background 0.3s ease-in-out;
+}
+
+
+.left .login button:hover {
+ background-color: #333 !important;
+}
+
+
+.right {
+ color: rgb(14, 9, 110);
+ flex: 1;
+ padding: 100px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.right h1 {
+ font-size: 2.2rem;
+ margin-bottom: 20px;
+ color: #333;
+}
+
+
+form {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+
+input {
+ font-family: 'Georgia', serif;
+ width: 80%;
+ padding: 12px;
+ margin-bottom: 15px;
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ font-size: 1rem;
+}
+
+
+button {
+ background: linear-gradient(90deg, #002f60, #012c5b);
+ color: white;
+ padding: 12px 30px;
+ border: none;
+ border-radius: 8px;
+ font-size: 1rem;
+ font-weight: bold;
+ cursor: pointer;
+ transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+ background: linear-gradient(90deg, #00152b, #004494);
+ transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+ .card {
+   width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, white, #75b6f8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+ }
+
+
+ .left,
+ .right {
+   padding: 40px;
+ }
+
+
+ input {
+   width: 90%;
+ }
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:black;
+}
+
+.dashboard{
+  color:white;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  width: 90%; 
+  max-width: 1200px; 
+  white-space: nowrap; 
+  gap: 15px;
+  padding: 10px;
+}
+
+
+.task-card {
+  background: white;
+  padding: 15px;
+  min-width: 200px; 
+  max-width: 250px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block; 
+  margin: 15px; 
+}
+
+
+.task-card:hover {
+  transform: scale(1.05);
+}
+
+.signup-button {
+  background: linear-gradient(90deg, #28a745, #218838);
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.signup-button:hover {
+  background: linear-gradient(90deg, #218838, #1e7e34);
+}
+
+.kind-coins-container {
+  background: white;
+  color: #333;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+
+.discounts-container {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  color: black
+}
+
+.discounts-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.kind-coins {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #007bff;
+  background: #eef5ff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.business-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #007bff #e0e0e0;
+}
+
+.business-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.business-list::-webkit-scrollbar-thumb {
+  background-color: #007bff;
+  border-radius: 10px;
+}
+
+.business-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+}
+
+.business-card:hover {
+  transform: scale(1.02);
+}
+
+.business-card h2 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.business-card p {
+  font-size: 1rem;
+  color: #555;
+  margin: 4px 0;
+}
+
+.discount-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #007bff;
+  background: #eef5ff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.distance-text {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #28a745;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .discounts-container {
+    width: 95%;
+  }
+}
+
